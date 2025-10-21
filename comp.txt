@@ -1,0 +1,9 @@
+
+gcc -o run_no_paral.out run_no_paral.c -O2 -lm 
+gcc -o run_paral.out run_paral.c -O2 -lm -fopenmp
+gcc -o run_avx.out run_avx.c -O2 -lm -fopenmp --mavx512f -mavx512bw -mavx512vl -mavxvnni
+gcc -o run_avx.out run_avx.c -O2 -lm -fopenmp -mavx512f -mavx512bw -mavx512vl -mavxvnni
+gcc -o run_avx_plus.out run_avx_plus.c -O2 -lm -fopenmp -mavx512f -mavx512bw -mavx512vl -mavxvnni
+gcc -o run_fp32.out run_fp32.c -O2 -lm -fopenmp
+gcc -o run_int16.out run_int16.c -O2 -lm -fopenmp
+gcc -o run_int8.out run_int8.c -O2 -lm -fopenmp

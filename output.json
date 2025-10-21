@@ -1,0 +1,83 @@
+[
+    {
+        "program_name": "./run_int8.out",
+        "run_args": "./modelq_110M.bin",
+        "run_count": 10,
+        "tok_per_s_avg": 117.5354902,
+        "ftl_per_ms_avg": 13.8,
+        "memory_usage_avg": 208.4921874,
+        "power_consumption_avg": 0.1063634
+    },
+    {
+        "program_name": "./run_int16.out",
+        "run_args": "./modelq16_110M.bin",
+        "run_count": 10,
+        "tok_per_s_avg": 129.5875964,
+        "ftl_per_ms_avg": 14.3,
+        "memory_usage_avg": 312.93632820000005,
+        "power_consumption_avg": 0.0964672
+    },
+    {
+        "program_name": "./run_fp32.out",
+        "run_args": "./model_110M.bin",
+        "run_count": 10,
+        "tok_per_s_avg": 108.96948,
+        "ftl_per_ms_avg": 12.8,
+        "memory_usage_avg": 422.26445279999996,
+        "power_consumption_avg": 0.11471469999999999
+    },
+    {
+        "program_name": "./run_no_paral.out",
+        "run_args": "./modelq_110M.bin",
+        "run_count": 10,
+        "tok_per_s_avg": 22.5288546,
+        "ftl_per_ms_avg": 47.4,
+        "memory_usage_avg": 208.82890609999998,
+        "power_consumption_avg": 0.5548545
+    },
+    {
+        "program_name": "./run_paral.out",
+        "run_args": "./modelq_110M.bin",
+        "run_count": 10,
+        "tok_per_s_avg": 133.5895544,
+        "ftl_per_ms_avg": 11.8,
+        "memory_usage_avg": 208.5160156,
+        "power_consumption_avg": 0.09358079999999999
+    },
+    {
+        "program_name": "./run_avx.out",
+        "run_args": "./modelq_110M.bin",
+        "run_count": 10,
+        "tok_per_s_avg": 252.17754530000002,
+        "ftl_per_ms_avg": 10.6,
+        "memory_usage_avg": 208.3996095,
+        "power_consumption_avg": 0.0495895
+    },
+    {
+        "program_name": "./run_avx_plus.out",
+        "run_args": "./modelq_110M.bin",
+        "run_count": 10,
+        "tok_per_s_avg": 257.39244130000003,
+        "ftl_per_ms_avg": 15.6,
+        "memory_usage_avg": 208.2031252,
+        "power_consumption_avg": 0.048615900000000004
+    },
+    {
+        "program_name": "./run_int8.out",
+        "run_args": "./modelq_15M.bin",
+        "run_count": 10,
+        "tok_per_s_avg": 291.3424703,
+        "ftl_per_ms_avg": 11.0,
+        "memory_usage_avg": 108.3730469,
+        "power_consumption_avg": 0.043166300000000005
+    },
+    {
+        "program_name": "./run_int8.out",
+        "run_args": "./modelq_42M.bin",
+        "run_count": 10,
+        "tok_per_s_avg": 295.8895202,
+        "ftl_per_ms_avg": 12.8,
+        "memory_usage_avg": 108.2609375,
+        "power_consumption_avg": 0.0422472
+    }
+]
